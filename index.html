@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+	<meta name="author" content="Žan Žnidar">
+	<title>kml connector</title>
+    <meta name="description" content="Import your location history and connect the points to form a path">
+    <style>
+        .selected { background-color: lightblue; }
+    </style>
+</head> 
+    
+<body>    
+    <p>Connects points of your Google Takeout Location History from <a href="https://github.com/Scarygami/location-history-json-converter">Location History JSON Converter</a> to form a path, which can then be visualised with <a href="https://github.com/RandomFractals/geo-data-viewer">Geo Data Viewer</a>. All conversion is done locally in your browser.</p>
+    <label for="inputfile">Choose a .kml file of your location history timeline:</label>
+    <input type="file" id="inputpicker" name="inputfile" accept=".kml">
+
+    <br>
+
+    <p id="log"></p>
+    
+    <!-- Write instructions on how to use it -->
+    
+    <script src="index.js"></script>
+
+    <footer>
+        <p>Check out this project on <a href="https://github.com/zznidar/kml-connector">GitHub</a>!</p>
+    </footer>
+</body>
+</html>

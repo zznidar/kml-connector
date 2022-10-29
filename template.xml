@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2' xmlns:gx='http://www.google.com/kml/ext/2.2'>
+ <Document>
+  <Placemark>
+   <open>1</open>
+   <gx:Track>
+    <altitudeMode>clampToGround</altitudeMode>
+
+<!--
+    <when>2021-08-28T00:17:42Z</when>
+    <gx:coord>10.1234567 55.7654321 123</gx:coord>
+-->
+   </gx:Track>
+  </Placemark>
+ </Document>
+</kml>
